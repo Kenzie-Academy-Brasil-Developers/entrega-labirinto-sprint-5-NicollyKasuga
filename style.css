@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.jogador{
+    background-color: red;
+    width:50px;
+    height: 50px;
+    position: absolute;
+}
+
+.parede{
+    width: 50px;
+    background-color: blue;
+    height: 50px;
+}
+.linhaDiv{
+    display: flex;
+}
+.espaço{
+    width: 50px;
+    height: 50px;
+}
+.container {
+    justify-content: center;
+    align-self: center;
+}
+.começo, .final {
+    width: 50px;
+    height: 50px;
+}
