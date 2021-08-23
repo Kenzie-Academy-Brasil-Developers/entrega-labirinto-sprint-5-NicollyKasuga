@@ -8,7 +8,7 @@
     background-color: red;
     width:50px;
     height: 50px;
-    position: absolute;
+    position: relative;
 }
 
 .parede{
@@ -19,7 +19,7 @@
 .linhaDiv{
     display: flex;
 }
-.espaço{
+.espaco{
     width: 50px;
     height: 50px;
 }
@@ -27,7 +27,7 @@
     justify-content: center;
     align-self: center;
 }
-.começo, .final {
+.comeco, .final {
     width: 50px;
     height: 50px;
 }

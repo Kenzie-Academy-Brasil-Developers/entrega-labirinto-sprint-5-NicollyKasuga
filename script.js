@@ -32,17 +32,17 @@ for(let i = 0; i < map.length; i++){
           linhaDiv.appendChild(parede);
         }
         else if(map[i][j] === ' '){
-            const espaço = document.createElement('div')
-            espaço.classList.add('espaço');
-            linhaDiv.appendChild(espaço);
+            const espaco = document.createElement('div')
+            espaco.classList.add('espaco');
+            linhaDiv.appendChild(espaco);
         }
         else if(map[i][j] === 'S'){
-            const começo = document.createElement('div')
+            const comeco = document.createElement('div')
             const jogador = document.createElement('div')
             jogador.classList.add('jogador')
-            começo.appendChild(jogador)
-            começo.classList.add('começo');
-            linhaDiv.appendChild(começo);
+            comeco.appendChild(jogador)
+            comeco.classList.add('comeco');
+            linhaDiv.appendChild(comeco);
         }
         else if(map[i][j] === 'F'){
             const final = document.createElement('div')
